@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import honeycomb from '../images/honeycomb.png';
 import cone from '../images/cone.png';
 import cup from '../images/cup.png';
 import truck from '../images/truck.jpeg';

@@ -22,16 +22,12 @@ const NutritionInfo = () => {
     const [carbs, setCarbs] = useState(0);
     const [fat, setFat] = useState(0);
 
-    useEffect(() => {
-        getMacros();
-    }, [state.scoops])
-
     const getMacros = () => {
         let cals = 0;
         let carbs = 0;
         let fat = 0;
 
-        state.scoops.map(scoop => {
+        state.scoops.forEach(scoop => {
             cals += MacroMap[scoop].calories;
             carbs += MacroMap[scoop].carbs;
             fat += MacroMap[scoop].fat
@@ -41,6 +37,11 @@ const NutritionInfo = () => {
         setCarbs(carbs);
         setFat(fat);
     }
+
+    useEffect(() => {
+        getMacros();
+    }, [state.scoops])
+
 
     return (
         <RightSection>

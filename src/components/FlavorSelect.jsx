@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Wrapper from "../assets/wrappers/FlavorSelect";
 import { Flavor } from "../utils";
 import { useAppContext } from "../context/appContext";
@@ -88,7 +87,7 @@ const FlavorSelect = () => {
                         <br />
                         <input type="checkbox" onClick={setToCup} checked={!state.isCone}/> Cup
                     </CenteredSection>
-                    {state.scoops.length == 0 &&
+                    {state.scoops.length === 0 &&
                         <>
                             <br />
                             <StartingInfo/>

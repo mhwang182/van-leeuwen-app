@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <Wrapper>
             <div>
-                <img src={logo} className='logo'/>
+                <img src={logo} className='logo' alt=''/>
             </div>
         </Wrapper>
     )
