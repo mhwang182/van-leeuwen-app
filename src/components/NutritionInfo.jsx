@@ -40,7 +40,7 @@ const NutritionInfo = () => {
 
     useEffect(() => {
         getMacros();
-    }, [state.scoops])
+    })
 
 
     return (
