@@ -25,6 +25,11 @@ const Wrapper = styled.section`
     .react-select-container {
         width: 400px;
         margin-right: 5px;
+
+        @media screen and (max-width: 500px) {
+            width: 100%;
+            min-width: 250px;
+        }
     }
 `
 

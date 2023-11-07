@@ -8,11 +8,11 @@ const Wrapper = styled.section`
     justify-content: center;
     width: 50%;
     float: right;
-    min-width: 500px;
+
 
     @media screen and (max-width: 992px) {
         width: 100%;
-        height: 60vh;
+        min-width: 400px;
     }
 `
 

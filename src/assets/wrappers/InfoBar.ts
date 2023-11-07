@@ -6,6 +6,10 @@ const InfoBar = styled.section`
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
+
+    @media screen and (max-width: 500px) {
+        width: 250px;
+    }
 `
 
 export default InfoBar;

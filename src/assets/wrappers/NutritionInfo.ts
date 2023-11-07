@@ -7,6 +7,10 @@ const Wrapper = styled.nav`
         padding: 10px;
         border-radius: 5px;
         margin-bottom: 5px;
+
+        @media screen and (max-width: 500px) {
+            min-width: 250px;
+        }
     }
 `
 export default Wrapper

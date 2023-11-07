@@ -47,15 +47,21 @@ const NutritionInfo = () => {
         <RightSection>
             <Wrapper>
                 <br />
-                <InfoBar>
-                    <AiFillFire /> Calories: {cals}
-                </InfoBar>
-                <InfoBar>
-                    <CiWheat /> Carbs: {carbs}
-                </InfoBar>
-                <InfoBar>
-                    <FaBowlFood /> Fat: {fat}
-                </InfoBar>
+                <CenteredSection>
+                    <InfoBar>
+                        <AiFillFire /> Calories: {cals}
+                    </InfoBar>
+                </CenteredSection>
+                <CenteredSection>
+                    <InfoBar>
+                        <CiWheat /> Carbs: {carbs}
+                    </InfoBar>
+                </CenteredSection>
+                <CenteredSection>
+                    <InfoBar>
+                        <FaBowlFood /> Fat: {fat}
+                    </InfoBar>
+                </CenteredSection>
                 <br/>
                 <CenteredSection>
                     <div>Percent of Daily Calories: </div>
