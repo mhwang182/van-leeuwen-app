@@ -14,6 +14,7 @@ const Wrapper = styled.section`
     flex-direction: column-reverse;
     align-items: center;
     background-image: url("${truck}");
+    background-size: cover;
 
     @media screen and (max-width: 992px) {
         width: 100%;
